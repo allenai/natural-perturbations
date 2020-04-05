@@ -1,9 +1,6 @@
-# Natural Perturbations for BoolQ (yes/no question answering dataset) 
-This repository contains the resources relevant to the [this publication](#Paper). 
+# Natural Perturbations for BoolQ 
+This repository contains the resources relevant to the following publication:
 
-
-## Paper
-For more details, see the following paper: 
 ```bibtex 
 @article{khashabi2020naturalperturbations,
   title={Natural Perturbation for Robust Question Answering},
