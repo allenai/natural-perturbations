@@ -13,6 +13,8 @@ This repository contains the resources relevant to the following publication:
 The data here BoolQ-NQ is an extension to BoolQ, a dataset that was originally released in [Clark et al, 2019](https://github.com/google-research-datasets/boolean-questions).
 
 
+## How does the data look like? 
+
 The dataset is organzied as a `.jsonl` file, i.e. each line is a json. Here is an example: 
 ```json
 {"cluster-id": "25938", "question_id": "267", "is_seed_question": 0, "split": "train", "passage": "(Thanksgiving (United States)) Thanksgiving, or Thanksgiving Day, is a public holiday celebrated on the fourth Thursday of November in the United States. It originated as a harvest festival. Thanksgiving has been celebrated nationally on and off since 1789, after Congress requested a proclamation by George Washington. It has been celebrated as a federal holiday every year since 1863, when, during the American Civil War, President Abraham Lincoln proclaimed a national day of ``Thanksgiving and Praise to our beneficent Father who dwelleth in the Heavens,'' to be celebrated on the last Thursday in November. Together with Christmas and the New Year, Thanksgiving is a part of the broader fall/winter holiday season in the U.S.", "question": "is thanksgiving sometimes the last thursday of the month?", "hard_label": "True", "soft_label": 0.75, "roberta_hard": true, "ind_human_label": "?"}
@@ -28,6 +30,7 @@ Here the keys are:
  - `is_seed_question` indicates whether this question is borrowed from the original BoolQ dataset. 
 - `cluster-id`: one thing to notice about the data is that it comes as clusters of questions. The questions that belong to the same cluster share the same `cluster-id`. 
 
+## How big is the data? 
 
 Here are some statistics on the data:
 
@@ -39,3 +42,7 @@ Here are some statistics on the data:
 | \# of clusters          | 4064  | 2408  | 919  | 737  |
 | average cluster size    | 4.3   | 4.1   | 4.8  | 4.3  |
 | median cluster size     | 3.0   | 3.0   | 3.0  | 3.0  |
+
+## How does the annotation interface look like? 
+
+[Here](https://www.youtube.com/watch?v=fq8V5HlDthY) is not-so-polished screencast of the annotation interface. 
