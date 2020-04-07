@@ -45,4 +45,4 @@ Here are some statistics on the data:
 
 ## How does the annotation interface look like? 
 
-[Here](https://www.youtube.com/watch?v=fq8V5HlDthY) is not-so-polished screencast of the annotation interface. 
+[Here](https://www.youtube.com/watch?v=MWbCRwanbOA&feature=youtu.be) is not-so-polished screencast of the annotation interface. 
